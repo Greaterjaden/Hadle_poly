@@ -1,4 +1,8 @@
-#include "Charater.h"
+#include "Character.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 Character::Character() {}
 Character::Character(string name, int health) {
@@ -10,14 +14,14 @@ void Character::setHeath(int health) {
 	cHealth = health;
 }
 
-void Character::getHeath() {
+int Character::getHeath() {
 	return cHealth;
 }
 void Character::setName(string name) {
 	cName = name;
 }
 
-void Character::getName() {
+ string Character::getName() {
 	return cName;
 }
 
