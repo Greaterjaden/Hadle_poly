@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+
 
 Character::Character() {}
 Character::Character(string name, int health) {

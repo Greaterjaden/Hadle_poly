@@ -1,10 +1,10 @@
-#include <iostream>
-#include <string>
-#include "Charater.h"
 
-using namespace std;
+#include "Character.h"
 
-void main() {
+
+
+void main() 
+{
 	Character monster;
 
 	monster.setName("brandon");
