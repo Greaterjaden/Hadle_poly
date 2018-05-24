@@ -20,6 +20,6 @@ public:
 protected:
 	string cName;
 	int cHealth;
-}
+};
 
 #endif

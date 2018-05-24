@@ -26,6 +26,6 @@ void Character::setName(string name) {
 }
 
 void Character::printInfo() {
-	cout << "my character is named" << cName << "with" << cHealth << "health";
+	cout << "my character is named " << cName << " with " << cHealth << " health. ";
 
 }
