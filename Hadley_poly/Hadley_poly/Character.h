@@ -22,4 +22,19 @@ protected:
 	int cHealth;
 };
 
+class Mage : public Character {
+
+public:
+	Mage();
+	Mage(int, string, int, string);
+	string getSpell();
+	void setSpell(string);
+	int getMagicAtk();
+	void setMagicAtk(int);
+	void printInfo();
+private:
+	int magicAtk;
+	string spellName;
+};
+
 #endif
