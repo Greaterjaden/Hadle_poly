@@ -37,4 +37,19 @@ private:
 	string spellName;
 };
 
+class Fighter :public Character {
+public:
+	Fighter();
+	Fighter(int,string,int,string);
+	string getAtkName();
+	void setAtkName(string);
+	int getAtk();
+	void setAtk(int);
+	void printInfo();
+private:
+	int Atk;
+	string AtkName;
+	
+};
+
 #endif

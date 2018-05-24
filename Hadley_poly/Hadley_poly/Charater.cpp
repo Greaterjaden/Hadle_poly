@@ -56,5 +56,32 @@ string Mage::getSpell() {
 }
 
 void Mage::printInfo() {
-	cout << "My mage named " << cName << " has " << cHealth << " Health and cast " << spellName << " for " << magicAtk << " damage. "<<endl;
+	cout << "My Mage is named " << cName << " has " << cHealth << " Health and cast " << spellName << " for " << magicAtk << " damage. "<<endl;
+}
+
+Fighter::Fighter(){}
+Fighter::Fighter(int H, string N, int A, string AN){
+	H = cHealth;
+	N = cName;
+	A = Atk;
+	AN = AtkName;
+}
+
+void Fighter::setAtk(int A){
+	Atk = A;
+}
+
+int Fighter::getAtk() {
+	return Atk;
+}
+
+void Fighter::setAtkName(string AN) {
+	AtkName = AN;
+}
+string Fighter::getAtkName() {
+	return AtkName;
+ }
+
+void Fighter::printInfo() {
+	cout << "My Fighter is named " << cName << " has " << cHealth << " Health and uses " << AtkName << " for " << Atk << " damage. " << endl;
 }
